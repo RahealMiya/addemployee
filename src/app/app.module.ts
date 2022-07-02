@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddemployeeComponent } from './addemployee/addemployee.component';
+import { SerachemployeeComponent } from './serachemployee/serachemployee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddemployeeComponent
+    AddemployeeComponent,
+    SerachemployeeComponent
   ],
   imports: [
     BrowserModule,
